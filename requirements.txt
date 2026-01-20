@@ -1,0 +1,4 @@
+!pip install wheel setuptools
+!apt-get update && apt-get install -y libatlas-base-dev gfortran
+!pip install backtrader --no-deps  # try without dependencies first
+!pip install backtrader           # then normal install
