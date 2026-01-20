@@ -1,14 +1,6 @@
-# requirements.txt
-# For the project:  hong-kong-index-etf-mean-reversion-framework
-
-yfinance>=0.2.40          # reliable stock/ETF data download
-pandas>=2.2.0             # data manipulation
-numpy>=1.26.0             # numerical operations
-matplotlib>=3.8.0         # plotting (z-score, spread, PnL)
-statsmodels>=0.14.0       # OLS regression for hedge ratio
-backtrader>=1.9.78.123    # optional: used in early versions / backtesting exploration
-
-# Optional but useful for cleaner runs / reproducibility
-jupyter>=1.0.0            # if running in notebook
-notebook>=7.0.0           # modern Jupyter
-ipython>=8.18.0
+yfinance==0.2.43
+pandas==2.2.2
+numpy==1.26.4
+matplotlib==3.9.2
+statsmodels==0.14.2
+backtrader==1.9.78.123
