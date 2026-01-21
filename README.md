@@ -27,12 +27,11 @@ Focus: hedge ratio stability, cost-aware backtesting, signal realism on efficien
 ### Rolling Z-Score (Mean-Reversion Signals)
 Normalized spread with entry/exit thresholds (typical entry |z| > 2.0–2.5, exit |z| < 0.5–0.8).
 
-![Z-Score](results/zscore_signals.png)
+![Z-Score Mean-Reversion Signals](results/zscore_signals.png)
 ### Daily Spread (ETF – β-weighted Basket)
 Raw spread before normalization, shown with 252-day rolling mean.
 
 ![Daily Spread](results/daily_spread.png)
-
 ## Limitations & Lessons
 - Very low trade frequency (sampling noise dominant)
 - No volatility targeting / position sizing yet
