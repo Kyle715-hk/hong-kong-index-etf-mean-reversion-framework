@@ -22,6 +22,18 @@ Focus: hedge ratio stability, cost-aware backtesting, signal realism on efficien
 
 **Takeaway**: Modest edge possible in simulation, but collapses under realistic HK costs/slippage → aligns with tight premium/discount of TraHK.
 
+## Visual Results
+
+### Rolling Z-Score (Mean-Reversion Signals)
+Normalized spread with entry/exit thresholds (typical entry |z| > 2.0–2.5, exit |z| < 0.5–0.8).
+
+![Z-Score Mean-Reversion Signals](results/zscore_signals.png)
+
+### Daily Spread (ETF – β-weighted Basket)
+Raw spread before normalization, shown with 252-day rolling mean.
+
+![Daily Spread](results/daily_spread.png)
+
 ## Limitations & Lessons
 - Very low trade frequency (sampling noise dominant)
 - No volatility targeting / position sizing yet
